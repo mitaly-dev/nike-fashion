@@ -3,7 +3,7 @@
   padding: 0;
 }
 header,
-nav {
+.navbar {
   background-color: #fff9f4;
 }
 body {
@@ -73,7 +73,7 @@ section {
 .shoes2-img {
   background-color: #f1f1f1;
   padding: 30px;
-  height: 320px;
+  height: 320px !important;
   border-radius: 20px;
 }
 .shoes2-img {
@@ -95,6 +95,18 @@ section {
 .section-title {
   color: var(--title);
   font-size: 48px;
+}
+.pagination {
+  justify-content: end;
+  margin-top: 20px;
+}
+.pagination li a {
+  font-weight: 500;
+}
+li.page-item {
+  border: 1px solid #3543bc;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 #0e212c70;
 }
 /* benifit css start */
 .benifit-content h3 {
