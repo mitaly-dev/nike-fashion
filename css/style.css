@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
 }
-header {
+header,
+nav {
   background-color: #fff9f4;
 }
 body {
